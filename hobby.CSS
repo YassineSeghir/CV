@@ -1,0 +1,28 @@
+body
+{
+	background-image: url(https://vignette.wikia.nocookie.net/jet/images/5/5c/Football.png/revision/latest?cb=20061206092322&format=original);
+}
+p
+{
+    color: blueviolet;
+    padding: 10px;
+    border: 5px solid black;
+    width: 200px;
+    height:120px;
+    background-color: chocolate;
+    text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+iframe
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1,h2
+{
+	text-align: center;
+	color: #850606;
+}

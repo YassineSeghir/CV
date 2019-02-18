@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+	   <meta charset="utf-8">
+     <link rel="stylesheet" href="contact.css" />
+  		<title>Contact</title>
+  </head>
+    <body>
+      <div>
+        <h1><span>Me Contacter</span></h1>
+        <form method="post" action="https://httpbin.org/post">
+          <input type="radio" name="Sexe" value="Mr" id="Mr" checked><label>Mr</label>
+          <input type="radio" name="Sexe" value="Mme" id="Mme"><label>Mme</label><br>
+          <label>Nom Prenom</label><br>
+          <input type="text" name="name" required>
+          <br>
+          <label>Email</label><br>
+          <input id="email" name="email" type="email"
+          placeholder="example@example.com" required>
+          <br>
+          <label for="pays">Dans quel pays habitez-vous ?</label><br />
+              <select name="pays" id="pays">
+                  <option value="france">France</option>
+                  <option value="espagne">Espagne</option>
+                  <option value="italie">Italie</option>
+                  <option value="royaume-uni">Royaume-Uni</option>
+                  <option value="canada">Canada</option>
+                  <option value="etats-unis">États-Unis</option>
+                  <option value="chine">Chine</option>
+                  <option value="japon">Japon</option>
+              </select><br>
+          <label>Message</label><br>
+          <textarea required></textarea><br>
+          <input type="submit" value="send" class="submit">
+        </form>
+      </div>
+    </body>
+</html>   
